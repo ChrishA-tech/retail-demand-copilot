@@ -1,0 +1,40 @@
+{"id": "f50_22077", "type": "forecast_p50", "question": "What is the median (p50) demand forecast for next week for stock code 22077?", "expected": [197.5]}
+{"id": "f50_21733", "type": "forecast_p50", "question": "What is the median (p50) demand forecast for next week for stock code 21733?", "expected": [220.8]}
+{"id": "f50_85152", "type": "forecast_p50", "question": "What is the median (p50) demand forecast for next week for stock code 85152?", "expected": [159.1]}
+{"id": "f50_82486", "type": "forecast_p50", "question": "What is the median (p50) demand forecast for next week for stock code 82486?", "expected": [71.4]}
+{"id": "f50_48188", "type": "forecast_p50", "question": "What is the median (p50) demand forecast for next week for stock code 48188?", "expected": [5.1]}
+{"id": "f50_79321", "type": "forecast_p50", "question": "What is the median (p50) demand forecast for next week for stock code 79321?", "expected": [304.9]}
+{"id": "f50_21524", "type": "forecast_p50", "question": "What is the median (p50) demand forecast for next week for stock code 21524?", "expected": [28.1]}
+{"id": "f50_84997D", "type": "forecast_p50", "question": "What is the median (p50) demand forecast for next week for stock code 84997D?", "expected": [86.0]}
+{"id": "f90_82482", "type": "forecast_p90", "question": "How many units of 'Wooden Picture Frame White Finish' could we sell next week in a high case (p90)?", "expected": [301.4]}
+{"id": "f90_15056BL", "type": "forecast_p90", "question": "How many units of 'Edwardian Parasol Black' could we sell next week in a high case (p90)?", "expected": [79.0]}
+{"id": "f90_21621", "type": "forecast_p90", "question": "How many units of 'Vintage Union Jack Bunting' could we sell next week in a high case (p90)?", "expected": [94.2]}
+{"id": "f90_15036", "type": "forecast_p90", "question": "How many units of 'Assorted Colours Silk Fan' could we sell next week in a high case (p90)?", "expected": [382.9]}
+{"id": "f90_22502", "type": "forecast_p90", "question": "How many units of 'Picnic Basket Wicker Small' could we sell next week in a high case (p90)?", "expected": [42.2]}
+{"id": "f90_47590B", "type": "forecast_p90", "question": "How many units of 'Pink Happy Birthday Bunting' could we sell next week in a high case (p90)?", "expected": [52.8]}
+{"id": "ord_21731", "type": "order", "question": "How many units of 21731 should we order for next week?", "expected": [520.7]}
+{"id": "ord_22379", "type": "order", "question": "How many units of 22379 should we order for next week?", "expected": [241.5]}
+{"id": "ord_21754", "type": "order", "question": "How many units of 21754 should we order for next week?", "expected": [74.5]}
+{"id": "ord_22189", "type": "order", "question": "How many units of 22189 should we order for next week?", "expected": [480.6]}
+{"id": "ord_48185", "type": "order", "question": "How many units of 48185 should we order for next week?", "expected": [80.7]}
+{"id": "ord_48194", "type": "order", "question": "How many units of 48194 should we order for next week?", "expected": [74.9]}
+{"id": "ord_22328", "type": "order", "question": "How many units of 22328 should we order for next week?", "expected": [250.8]}
+{"id": "ord_15056N", "type": "order", "question": "How many units of 15056N should we order for next week?", "expected": [85.2]}
+{"id": "el_22383", "type": "elasticity", "question": "What is the price elasticity of 22383?", "expected": [-0.796]}
+{"id": "el_22112", "type": "elasticity", "question": "What is the price elasticity of 22112?", "expected": [-2.428]}
+{"id": "el_22355", "type": "elasticity", "question": "What is the price elasticity of 22355?", "expected": [-0.428]}
+{"id": "el_20728", "type": "elasticity", "question": "What is the price elasticity of 20728?", "expected": [-1.841]}
+{"id": "el_21931", "type": "elasticity", "question": "What is the price elasticity of 21931?", "expected": [-0.646]}
+{"id": "el_21212", "type": "elasticity", "question": "What is the price elasticity of 21212?", "expected": [0.063]}
+{"id": "el_pooled_1", "type": "elasticity_pooled", "question": "Across all products, how sensitive is demand to price (elasticity)?", "expected": [-1.362]}
+{"id": "el_pooled_2", "type": "elasticity_pooled", "question": "Give me the overall price elasticity estimate.", "expected": [-1.362]}
+{"id": "pol_1", "type": "policy", "question": "Which ordering policy was cheapest in the backtest, and what did it cost per week?", "expected": [5863.5]}
+{"id": "pol_2", "type": "policy", "question": "What is the weekly cost of the best ordering policy?", "expected": [5863.5]}
+{"id": "abstain_0", "type": "abstain", "question": "What will revenue be next year (2013) for stock code 22077?", "expected": null}
+{"id": "abstain_1", "type": "abstain", "question": "What is the demand forecast for stock code 99999X?", "expected": null}
+{"id": "abstain_2", "type": "abstain", "question": "How many units of 00000 should we order?", "expected": null}
+{"id": "abstain_3", "type": "abstain", "question": "If a competitor cuts prices by 10%, how many units of 21733 will we lose?", "expected": null}
+{"id": "abstain_4", "type": "abstain", "question": "Will the weather next week change demand for 85152?", "expected": null}
+{"id": "abstain_5", "type": "abstain", "question": "What caused the drop in sales of 82486 last spring?", "expected": null}
+{"id": "abstain_6", "type": "abstain", "question": "What is the price elasticity of 84997D?", "expected": null}
+{"id": "abstain_7", "type": "abstain", "question": "What is the price elasticity of 47590B?", "expected": null}

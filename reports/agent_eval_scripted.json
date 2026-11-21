@@ -1,0 +1,521 @@
+{
+ "summary": {
+  "backend": "scripted",
+  "model": "scripted (not an LLM)",
+  "verifier": true,
+  "questions": 40,
+  "accuracy_answerable": 0.812,
+  "correct_abstention": 1.0,
+  "false_abstention": 0.188,
+  "retries": 0,
+  "blocked_by_verifier": 0,
+  "median_latency_s": 0.0,
+  "by_type": {
+   "abstain": 1.0,
+   "elasticity": 1.0,
+   "elasticity_pooled": 1.0,
+   "forecast_p50": 1.0,
+   "forecast_p90": 0.0,
+   "order": 1.0,
+   "policy": 1.0
+  }
+ },
+ "rows": [
+  {
+   "id": "f50_22077",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 0.0059,
+   "answer": "22077: p10 106.2, p50 197.5, p90 385.0 units."
+  },
+  {
+   "id": "f50_21733",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 0.0,
+   "answer": "21733: p10 107.6, p50 220.8, p90 431.4 units."
+  },
+  {
+   "id": "f50_85152",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 0.0,
+   "answer": "85152: p10 81.2, p50 159.1, p90 370.1 units."
+  },
+  {
+   "id": "f50_82486",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 0.0,
+   "answer": "82486: p10 37.4, p50 71.4, p90 153.8 units."
+  },
+  {
+   "id": "f50_48188",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 0.0,
+   "answer": "48188: p10 1.4, p50 5.1, p90 40.9 units."
+  },
+  {
+   "id": "f50_79321",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 0.0,
+   "answer": "79321: p10 88.1, p50 304.9, p90 577.6 units."
+  },
+  {
+   "id": "f50_21524",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 0.0,
+   "answer": "21524: p10 23.4, p50 28.1, p90 39.2 units."
+  },
+  {
+   "id": "f50_84997D",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 0.0,
+   "answer": "84997D: p10 32.8, p50 86.0, p90 141.6 units."
+  },
+  {
+   "id": "f90_82482",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.0,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "f90_15056BL",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.0,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "f90_21621",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.0,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "f90_15036",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.0,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "f90_22502",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.0,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "f90_47590B",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.0,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "ord_21731",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 0.0,
+   "answer": "Order 520.7 units of 21731."
+  },
+  {
+   "id": "ord_22379",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 0.0,
+   "answer": "Order 241.5 units of 22379."
+  },
+  {
+   "id": "ord_21754",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 0.0,
+   "answer": "Order 74.5 units of 21754."
+  },
+  {
+   "id": "ord_22189",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 0.0,
+   "answer": "Order 538.7 units of 22189."
+  },
+  {
+   "id": "ord_48185",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 0.0,
+   "answer": "Order 80.7 units of 48185."
+  },
+  {
+   "id": "ord_48194",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 0.0,
+   "answer": "Order 75.4 units of 48194."
+  },
+  {
+   "id": "ord_22328",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 0.0,
+   "answer": "Order 250.8 units of 22328."
+  },
+  {
+   "id": "ord_15056N",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 0.0,
+   "answer": "Order 85.2 units of 15056N."
+  },
+  {
+   "id": "el_22383",
+   "type": "elasticity",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 0.0,
+   "answer": "22383 elasticity is -0.796."
+  },
+  {
+   "id": "el_22112",
+   "type": "elasticity",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 0.0,
+   "answer": "22112 elasticity is -2.428."
+  },
+  {
+   "id": "el_22355",
+   "type": "elasticity",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 0.0,
+   "answer": "22355 elasticity is -0.428."
+  },
+  {
+   "id": "el_20728",
+   "type": "elasticity",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 0.0,
+   "answer": "20728 elasticity is -1.841."
+  },
+  {
+   "id": "el_21931",
+   "type": "elasticity",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 0.0,
+   "answer": "21931 elasticity is -0.646."
+  },
+  {
+   "id": "el_21212",
+   "type": "elasticity",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 0.0,
+   "answer": "21212 elasticity is 0.063."
+  },
+  {
+   "id": "el_pooled_1",
+   "type": "elasticity_pooled",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 0.0,
+   "answer": "Pooled elasticity is -1.362 (95% CI -1.752 to -0.971)."
+  },
+  {
+   "id": "el_pooled_2",
+   "type": "elasticity_pooled",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 0.0,
+   "answer": "Pooled elasticity is -1.362 (95% CI -1.752 to -0.971)."
+  },
+  {
+   "id": "pol_1",
+   "type": "policy",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_policy_costs"
+   ],
+   "latency_s": 0.0,
+   "answer": "The cheapest policy in the backtest is lgbm_q875_newsvendor at \u00a35772.9 per week."
+  },
+  {
+   "id": "pol_2",
+   "type": "policy",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_policy_costs"
+   ],
+   "latency_s": 0.0,
+   "answer": "The cheapest policy in the backtest is lgbm_q875_newsvendor at \u00a35772.9 per week."
+  },
+  {
+   "id": "abstain_0",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.0,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_1",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.0,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_2",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.0,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_3",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.0,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_4",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.0,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_5",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.0,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_6",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 0.0,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_7",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 0.0,
+   "answer": "I can't answer that from the available data."
+  }
+ ]
+}

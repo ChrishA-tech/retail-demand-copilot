@@ -1,0 +1,187 @@
+{
+ "data": {
+  "source": "UCI Online Retail II (Chen, 2012), CC BY 4.0",
+  "raw_rows": 1067371,
+  "cancelled_invoices": 19494,
+  "non_positive_quantity": 3457,
+  "non_positive_price": 2750,
+  "non_product_codes": 4664,
+  "exact_duplicates": 33664,
+  "clean_rows": 1003342,
+  "removed_pct": 6.0,
+  "products": 100,
+  "weeks": 104,
+  "first_week": "2009-12-07",
+  "last_week": "2011-11-28",
+  "zero_weeks_share": 0.1071
+ },
+ "protocol": {
+  "validation_weeks": [
+   "2011-06-20",
+   "2011-09-05"
+  ],
+  "test_weeks": [
+   "2011-09-12",
+   "2011-11-28"
+  ],
+  "retrain": "every week, on data strictly before the forecast week",
+  "horizon_weeks": 1
+ },
+ "elasticity_pooled": {
+  "list_price": {
+   "elasticity": -1.362,
+   "ci95": [
+    -1.752,
+    -0.971
+   ],
+   "p_value": 7.99721023078835e-12,
+   "n_obs": 9286
+  },
+  "median_line_price": {
+   "elasticity": -2.056,
+   "ci95": [
+    -2.486,
+    -1.626
+   ],
+   "p_value": 6.845805479860003e-21,
+   "n_obs": 9286
+  },
+  "volume_weighted_price": {
+   "elasticity": -3.077,
+   "ci95": [
+    -3.759,
+    -2.395
+   ],
+   "p_value": 8.952373019020332e-19,
+   "n_obs": 9286
+  }
+ },
+ "elasticity_by_product": {
+  "estimable": 87,
+  "products": 100,
+  "ci_entirely_below_zero": 54,
+  "median": -1.683
+ },
+ "accuracy_validation": {
+  "lightgbm_median": {
+   "wape": 0.506,
+   "mase": 0.705,
+   "bias": -0.1885
+  },
+  "moving_average_4w": {
+   "wape": 0.5992,
+   "mase": 0.834,
+   "bias": 0.0068
+  },
+  "naive": {
+   "wape": 0.6961,
+   "mase": 0.969,
+   "bias": 0.0012
+  },
+  "seasonal_naive": {
+   "wape": 0.8225,
+   "mase": 1.145,
+   "bias": 0.077
+  },
+  "interval_p10_p90_coverage": 0.7125,
+  "pinball": {
+   "q100": 13.67,
+   "q500": 45.78,
+   "q875": 39.63,
+   "q900": 35.59
+  }
+ },
+ "accuracy_test": {
+  "lightgbm_median": {
+   "wape": 0.471,
+   "mase": 0.917,
+   "bias": -0.2004
+  },
+  "moving_average_4w": {
+   "wape": 0.4952,
+   "mase": 0.964,
+   "bias": -0.0971
+  },
+  "naive": {
+   "wape": 0.614,
+   "mase": 1.196,
+   "bias": -0.0408
+  },
+  "seasonal_naive": {
+   "wape": 0.72,
+   "mase": 1.402,
+   "bias": 0.1758
+  },
+  "interval_p10_p90_coverage": 0.7275,
+  "pinball": {
+   "q100": 18.5,
+   "q500": 59.6,
+   "q875": 49.37,
+   "q900": 43.72
+  }
+ },
+ "quantile_crossing_rate_before_rearrangement": 0.2883,
+ "wape_lgbm_minus_ma4_test": {
+  "wape_diff_pp": -2.41,
+  "ci95_pp": [
+   -5.89,
+   1.55
+  ]
+ },
+ "order_policy": {
+  "cu": 0.35,
+  "co": 0.05,
+  "critical_ratio": 0.875,
+  "multipliers_tuned_on_validation": {
+   "ma4": 1.65,
+   "lgbm_median": 1.9
+  },
+  "test_cost_per_week_gbp": {
+   "ma4_x1": 8362.3,
+   "ma4_x1.65": 6281.0,
+   "lgbm_median": 8736.8,
+   "lgbm_median_x1.9": 5818.4,
+   "lgbm_q875_newsvendor": 5863.5
+  },
+  "newsvendor_vs_best_baseline": {
+   "diff_per_week": -417.4,
+   "ci95": [
+    -694.6,
+    -136.1
+   ],
+   "share_of_boots_below_zero": 0.995
+  },
+  "newsvendor_vs_ma4_x1": {
+   "diff_per_week": -2498.8,
+   "ci95": [
+    -3166.5,
+    -1922.4
+   ],
+   "share_of_boots_below_zero": 1.0
+  },
+  "validation_cost_per_week_gbp": {
+   "ma4_x1": 6407.4,
+   "ma4_x1.65": 5269.9,
+   "lgbm_median": 6931.6,
+   "lgbm_median_x1.9": 5011.7,
+   "lgbm_q875_newsvendor": 4992.4
+  },
+  "champion_chosen_on_validation": "lgbm_q875_newsvendor",
+  "champion_vs_ma4_x1_test": {
+   "diff_per_week": -2498.8,
+   "ci95": [
+    -3166.5,
+    -1922.4
+   ],
+   "share_of_boots_below_zero": 1.0
+  },
+  "champion_vs_ma4_safety_stock_test": {
+   "diff_per_week": -417.4,
+   "ci95": [
+    -694.6,
+    -136.1
+   ],
+   "share_of_boots_below_zero": 0.995
+  }
+ }
+}
