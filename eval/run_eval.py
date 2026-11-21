@@ -19,7 +19,8 @@ def correct(q, r) -> bool:
     if r.abstained:
         return False
     got = numbers(r.answer)
-    return all(any(abs(g - e) <= max(0.051, 0.01 * abs(e)) for g in got) for e in q["expected"])
+    got += [g / 100 for g in got]  # a probability of 0.572 may be written as 57.2%
+    return all(any(abs(g - e) <= max(0.051 if abs(e) >= 1 else 0.0051, 0.01 * abs(e)) for g in got) for e in q["expected"])
 
 
 def main():
