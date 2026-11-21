@@ -1,0 +1,537 @@
+{
+ "summary": {
+  "backend": "ollama",
+  "model": "qwen2.5:7b",
+  "verifier": true,
+  "questions": 40,
+  "accuracy_answerable": 0.562,
+  "correct_abstention": 1.0,
+  "false_abstention": 0.438,
+  "retries": 8,
+  "blocked_by_verifier": 0,
+  "median_latency_s": 2.005,
+  "by_type": {
+   "abstain": 1.0,
+   "elasticity": 0.0,
+   "elasticity_pooled": 0.0,
+   "forecast_p50": 1.0,
+   "forecast_p90": 0.0,
+   "order": 1.0,
+   "policy": 1.0
+  }
+ },
+ "rows": [
+  {
+   "id": "f50_22077",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 5.24,
+   "answer": "The median (p50) demand forecast for next week for stock code 22077 is 197.5 units."
+  },
+  {
+   "id": "f50_21733",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 2.71,
+   "answer": "The median (p50) demand forecast for next week for stock code 21733 is 220.8 units."
+  },
+  {
+   "id": "f50_85152",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 2.41,
+   "answer": "The median (p50) demand forecast for next week for stock code 85152 is 159.1 units."
+  },
+  {
+   "id": "f50_82486",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 2.34,
+   "answer": "The median (p50) demand forecast for next week for stock code 82486 is 71.4 units."
+  },
+  {
+   "id": "f50_48188",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 2.3,
+   "answer": "The median (p50) demand forecast for next week for stock code 48188 is 5.1 units."
+  },
+  {
+   "id": "f50_79321",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 2.45,
+   "answer": "The median (p50) demand forecast for next week for stock code 79321 is 304.9 units."
+  },
+  {
+   "id": "f50_21524",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 2.33,
+   "answer": "The median (p50) demand forecast for next week for stock code 21524 is 28.1 units."
+  },
+  {
+   "id": "f50_84997D",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 2.45,
+   "answer": "The median (p50) demand forecast for next week for stock code 84997D is 86.0 units."
+  },
+  {
+   "id": "f90_82482",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 1.67,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "f90_15056BL",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 1.66,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "f90_21621",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 1.66,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "f90_15036",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 1.66,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "f90_22502",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 1.65,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "f90_47590B",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 1.66,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "ord_21731",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.97,
+   "answer": "We should order 521 units of 21731 for next week."
+  },
+  {
+   "id": "ord_22379",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.94,
+   "answer": "We should order 242 units of stock code 22379 for next week."
+  },
+  {
+   "id": "ord_21754",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.92,
+   "answer": "We should order 75 units of stock code 21754 for next week."
+  },
+  {
+   "id": "ord_22189",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.96,
+   "answer": "We should order 481 units of stock code 22189 for next week."
+  },
+  {
+   "id": "ord_48185",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.94,
+   "answer": "We should order 81 units of DOORMAT FAIRY CAKE for next week."
+  },
+  {
+   "id": "ord_48194",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.91,
+   "answer": "We should order 75 units of stock code 48194 for next week."
+  },
+  {
+   "id": "ord_22328",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 2.08,
+   "answer": "We should order 251 units of stock code 22328 for next week."
+  },
+  {
+   "id": "ord_15056N",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 2.04,
+   "answer": "You should order 85 units of 15056N for next week."
+  },
+  {
+   "id": "el_22383",
+   "type": "elasticity",
+   "correct": false,
+   "abstained": true,
+   "retried": true,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 3.9,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "el_22112",
+   "type": "elasticity",
+   "correct": false,
+   "abstained": true,
+   "retried": true,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 4.18,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "el_22355",
+   "type": "elasticity",
+   "correct": false,
+   "abstained": true,
+   "retried": true,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 4.17,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "el_20728",
+   "type": "elasticity",
+   "correct": false,
+   "abstained": true,
+   "retried": true,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 4.48,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "el_21931",
+   "type": "elasticity",
+   "correct": false,
+   "abstained": true,
+   "retried": true,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 3.88,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "el_21212",
+   "type": "elasticity",
+   "correct": false,
+   "abstained": true,
+   "retried": true,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 4.15,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "el_pooled_1",
+   "type": "elasticity_pooled",
+   "correct": false,
+   "abstained": true,
+   "retried": true,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 3.51,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "el_pooled_2",
+   "type": "elasticity_pooled",
+   "correct": false,
+   "abstained": true,
+   "retried": true,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 4.07,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "pol_1",
+   "type": "policy",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_policy_costs"
+   ],
+   "latency_s": 2.35,
+   "answer": "The cheapest ordering policy in the backtest was \"lgbm_q875_newsvendor\", with a cost of 5863.5 GBP per week."
+  },
+  {
+   "id": "pol_2",
+   "type": "policy",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_policy_costs"
+   ],
+   "latency_s": 2.3,
+   "answer": "The weekly cost of the best ordering policy, which is the \"lgbm_q875_newsvendor\" policy, is 5863.5 GBP."
+  },
+  {
+   "id": "abstain_0",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.51,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_1",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 1.6,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_2",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.66,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_3",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.51,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_4",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.52,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_5",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.52,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_6",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 1.68,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_7",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 1.56,
+   "answer": "I can't answer that from the available data."
+  }
+ ]
+}

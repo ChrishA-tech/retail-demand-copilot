@@ -49,3 +49,16 @@ def test_verifier_flags_invented_numbers():
     assert agent.unsupported("Expect about 120 units.", ev, "q") == []
     assert agent.unsupported("Expect 999 units.", ev, "q") == [999.0]
     assert agent.unsupported("Critical ratio is 87.5%.", [{"r": 0.875}], "q") == []
+
+
+def test_verifier_allows_confidence_level():
+    assert agent.unsupported("Elasticity is -0.80 (95% confidence interval -1.59 to -0.56).",
+                             [{"e": -0.796, "ci95": [-1.589, -0.558]}], "q") == []
+
+
+def test_tools_resolve_product_names():
+    from rdc import tools
+    art = {"products": {"82482": {"description": "WOODEN PICTURE FRAME WHITE FINISH", "week": "w",
+                                  "forecast": {"p10": 1, "p50": 2, "p90": 3}, "last_4_weeks_units": []}}}
+    assert tools.get_forecast("Wooden Picture Frame White Finish", art)["stock_code"] == "82482"
+    assert "error" in tools.get_forecast("No Such Thing", art)

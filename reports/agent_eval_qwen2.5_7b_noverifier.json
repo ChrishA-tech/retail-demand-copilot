@@ -1,0 +1,537 @@
+{
+ "summary": {
+  "backend": "ollama",
+  "model": "qwen2.5:7b",
+  "verifier": false,
+  "questions": 40,
+  "accuracy_answerable": 0.812,
+  "correct_abstention": 1.0,
+  "false_abstention": 0.188,
+  "retries": 0,
+  "blocked_by_verifier": 0,
+  "median_latency_s": 1.95,
+  "by_type": {
+   "abstain": 1.0,
+   "elasticity": 1.0,
+   "elasticity_pooled": 1.0,
+   "forecast_p50": 1.0,
+   "forecast_p90": 0.0,
+   "order": 1.0,
+   "policy": 1.0
+  }
+ },
+ "rows": [
+  {
+   "id": "f50_22077",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 2.48,
+   "answer": "The median (p50) demand forecast for next week for stock code 22077 is 197.5 units."
+  },
+  {
+   "id": "f50_21733",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 2.38,
+   "answer": "The median (p50) demand forecast for next week for stock code 21733 is 220.8 units."
+  },
+  {
+   "id": "f50_85152",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 2.37,
+   "answer": "The median (p50) demand forecast for next week for stock code 85152 is 159.1 units."
+  },
+  {
+   "id": "f50_82486",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 2.34,
+   "answer": "The median (p50) demand forecast for next week for stock code 82486 is 71.4 units."
+  },
+  {
+   "id": "f50_48188",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 2.3,
+   "answer": "The median (p50) demand forecast for next week for stock code 48188 is 5.1 units."
+  },
+  {
+   "id": "f50_79321",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 2.37,
+   "answer": "The median (p50) demand forecast for next week for stock code 79321 is 304.9 units."
+  },
+  {
+   "id": "f50_21524",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 2.33,
+   "answer": "The median (p50) demand forecast for next week for stock code 21524 is 28.1 units."
+  },
+  {
+   "id": "f50_84997D",
+   "type": "forecast_p50",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 2.42,
+   "answer": "The median (p50) demand forecast for next week for stock code 84997D is 86.0 units."
+  },
+  {
+   "id": "f90_82482",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 1.63,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "f90_15056BL",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 1.67,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "f90_21621",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 1.67,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "f90_15036",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 1.66,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "f90_22502",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 1.64,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "f90_47590B",
+   "type": "forecast_p90",
+   "correct": false,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 1.59,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "ord_21731",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.95,
+   "answer": "We should order 521 units of 21731 for next week."
+  },
+  {
+   "id": "ord_22379",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.95,
+   "answer": "You should order 242 units of stock code 22379 for next week."
+  },
+  {
+   "id": "ord_21754",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.91,
+   "answer": "We should order 75 units of stock code 21754 for next week."
+  },
+  {
+   "id": "ord_22189",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.95,
+   "answer": "We should order 481 units of stock code 22189 for next week."
+  },
+  {
+   "id": "ord_48185",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.95,
+   "answer": "We should order 81 units of DOORMAT FAIRY CAKE for next week."
+  },
+  {
+   "id": "ord_48194",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.91,
+   "answer": "We should order 75 units of stock code 48194 for next week."
+  },
+  {
+   "id": "ord_22328",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.95,
+   "answer": "We should order 251 units of 22328 for next week."
+  },
+  {
+   "id": "ord_15056N",
+   "type": "order",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.98,
+   "answer": "You should order 85 units of 15056N for next week."
+  },
+  {
+   "id": "el_22383",
+   "type": "elasticity",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 3.38,
+   "answer": "The price elasticity for stock code 22383 (LUNCH BAG SUKI DESIGN) is -0.796, with a 95% confidence interval of [-1.589, -0.558]. This indicates an inelastic demand."
+  },
+  {
+   "id": "el_22112",
+   "type": "elasticity",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 3.63,
+   "answer": "The price elasticity for stock code 22112 (CHOCOLATE HOT WATER BOTTLE) is -2.428, with a 95% confidence interval of [-3.387, -1.585]. This indicates an association from observational prices, not a causal effect."
+  },
+  {
+   "id": "el_22355",
+   "type": "elasticity",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 3.71,
+   "answer": "The price elasticity for stock code 22355 (CHARLOTTE BAG SUKI DESIGN) is -0.428, with a 95% confidence interval of [-1.189, 0.278]. This association is from observational data and not a causal effect."
+  },
+  {
+   "id": "el_20728",
+   "type": "elasticity",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 3.63,
+   "answer": "The price elasticity for stock code 20728 (LUNCH BAG CARS BLUE) is -1.841, with a 95% confidence interval of -2.353 to -0.602. This indicates an inverse relationship between price and demand."
+  },
+  {
+   "id": "el_21931",
+   "type": "elasticity",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 3.48,
+   "answer": "The price elasticity for stock code 21931 (JUMBO STORAGE BAG SUKI) is -0.646, with a 95% confidence interval of [-1.376, 0.015]. This indicates an inelastic demand."
+  },
+  {
+   "id": "el_21212",
+   "type": "elasticity",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 3.84,
+   "answer": "The price elasticity for stock code 21212 (PACK OF 72 RETROSPOT CAKE CASES) is 0.063, with a 95% confidence interval of [-0.21, 0.364]. This association is from observational prices and not a causal effect."
+  },
+  {
+   "id": "el_pooled_1",
+   "type": "elasticity_pooled",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 3.76,
+   "answer": "The demand for all products is estimated to be -1.362 times price elastic, with a 95% confidence interval of [-1.752, -0.971]. This means a 1% increase in price is associated with a 1.362% decrease in demand, based on observational data."
+  },
+  {
+   "id": "el_pooled_2",
+   "type": "elasticity_pooled",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 3.71,
+   "answer": "The overall price elasticity estimate for all products is -1.362, with a 95% confidence interval of [-1.752, -0.971]. This indicates that a 1% increase in price is associated with a 1.362% decrease in demand, based on observational data."
+  },
+  {
+   "id": "pol_1",
+   "type": "policy",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_policy_costs"
+   ],
+   "latency_s": 2.42,
+   "answer": "The cheapest ordering policy in the backtest was \"lgbm_q875_newsvendor\", with a cost of 5863.5 GBP per week."
+  },
+  {
+   "id": "pol_2",
+   "type": "policy",
+   "correct": true,
+   "abstained": false,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_policy_costs"
+   ],
+   "latency_s": 2.39,
+   "answer": "The weekly cost of the best ordering policy, which is the \"lgbm_q875_newsvendor\" policy, is 5863.5 GBP."
+  },
+  {
+   "id": "abstain_0",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.53,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_1",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_forecast"
+   ],
+   "latency_s": 1.66,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_2",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_order_recommendation"
+   ],
+   "latency_s": 1.65,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_3",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.52,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_4",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.51,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_5",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [],
+   "latency_s": 0.52,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_6",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 1.8,
+   "answer": "I can't answer that from the available data."
+  },
+  {
+   "id": "abstain_7",
+   "type": "abstain",
+   "correct": true,
+   "abstained": true,
+   "retried": false,
+   "verified": true,
+   "tools": [
+    "get_elasticity"
+   ],
+   "latency_s": 1.66,
+   "answer": "I can't answer that from the available data."
+  }
+ ]
+}
